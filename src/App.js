@@ -1,6 +1,6 @@
 import "./styles.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-// import Home from "./pages/Home.jsx";
+import Home from "./pages/Home.jsx";
 // import PrivacyPolicy from "./pages/PrivacyPolicy.jsx";
 // import TermOfUse from "./pages/TermOfUse.jsx";
 // import AboutUs from "./pages/AboutUs.jsx";
@@ -8,7 +8,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // import ContactUsPage from "./pages/ConactUs.jsx";
 // import AboutUsPage from "./pages/AboutUsPage";
 // import LifeAt from "./pages/LifeAt";
-import LatestNews from "./pages/LatestNews";
+// import LatestNews from "./pages/LatestNews";
 function App() {
   // const dynamicComponentPropsArray = [
   //   {
@@ -27,7 +27,7 @@ function App() {
 
   return (
     <div className="App">
-      {/* <Home /> */}
+      <Home />
       {/* <PrivacyPolicy /> */}
       {/* <TermOfUse /> */}
 
@@ -39,7 +39,7 @@ function App() {
       {/* <ContactUsPage /> */}
       {/* <AboutUsPage /> */}
       {/* <LifeAt/> */}
-      <LatestNews />
+      {/* <LatestNews /> */}
     </div>
   );
 }

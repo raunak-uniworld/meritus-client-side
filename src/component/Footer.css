@@ -5,7 +5,7 @@
       rgb(0 0 0 / 80%),
       rgb(0 0 0 / 80%)
     ),
-    url(./images/footer.jpg);
+    url("../../public/images/footer.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

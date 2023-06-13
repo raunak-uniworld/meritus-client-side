@@ -1,3 +1,11 @@
+.wrapper,
+.card2 h2,
+.card3 h2,
+.trainers,
+.testimonials_container,
+.shop_now {
+  text-align: center;
+}
 .shop_now h2:first-child,
 .explore_container h2:first-child {
   font-size: var(--hSize);
