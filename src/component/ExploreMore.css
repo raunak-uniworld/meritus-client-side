@@ -1,0 +1,26 @@
+.ExploreMore {
+  position: relative;
+  overflow: hidden;
+}
+.ExploreMore img {
+  border-radius: 15px;
+  height: 170px;
+  width: 100%;
+  object-fit: cover;
+}
+.ExploreMore h3 {
+  position: absolute;
+  color: #fff;
+  bottom: -1px;
+  text-align: center;
+  width: 100%;
+  background: radial-gradient(#0000008f, transparent);
+}
+.card2 h2:first-child,
+.card3 h2:first-child {
+  font-size: var(--hSize);
+  color: #264ec8;
+}
+.explore_container h2 span {
+  color: var(--dPink);
+}

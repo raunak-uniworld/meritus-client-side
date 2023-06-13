@@ -1,0 +1,16 @@
+.Philosphy {
+  display: flex;
+  align-items: center;
+}
+.elips {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  background: #c3c5f8;
+}
+.first_philosphy h2,
+.sec_philosphy h2 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}

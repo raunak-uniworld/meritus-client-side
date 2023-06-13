@@ -1,0 +1,19 @@
+.shop_now h2:first-child,
+.explore_container h2:first-child {
+  font-size: var(--hSize);
+  color: #264ec8;
+}
+.shop_now h2:first-child span,
+.explore_container h2:first-child span {
+  color: #e20f6f;
+}
+.shop_now .Trainers_container h2 {
+  text-align: center;
+  font-size: 25px;
+}
+.shop_now .Trainers_container img {
+  border-radius: 15px;
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,18 @@
+.latest_banner {
+  height: 550px;
+  background: #fff8e6;
+  position: relative;
+  overflow: hidden;
+}
+.latest_banner_img {
+  position: absolute;
+  right: -20px;
+  bottom: -170px;
+}
+.latest_banner .inh2 {
+  position: absolute;
+  width: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  padding-left: 200px;
+}

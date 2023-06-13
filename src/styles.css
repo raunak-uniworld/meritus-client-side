@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+:root {
+  --yellow: #febc08;
+  --rating: #ffe104;
+  --pink: #ff75b3;
+  --dPink: #e20f6f;
+  --blue: #7380ff;
+  --dBlue: #264ec8;
+  --pSize: 14px;
+  --bHsize: 60px;
+  --mbHsize: 26px;
+  --hSize: 40px;
+  --mhSize: 20px;
+  --sHsize: 25px;
+  --f20: 20px;
+  --f15: 14px;
+  --f45: 45px;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+h1 {
+  color: red;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span {
+  font-family: "Poppins";
+}
+a {
+  text-decoration: none !important;
+}
+img {
+  width: 100%;
+}
+.pt-100 {
+  padding-top: 100px;
+}
+.pt-50 {
+  padding-top: 50px;
+}
+.pb-50 {
+  padding-bottom: 50px;
+}
+.pb-100 {
+  padding-bottom: 100px;
+}
+.ff {
+  font-family: "Poppins";
+}
+.fw-400 {
+  font-weight: 400;
+}
+.fw-500 {
+  font-weight: 500;
+}
+.fw-600 {
+  font-weight: 600;
+}
+.fw-700 {
+  font-weight: 700;
+}
+.fw-800 {
+  font-weight: 700;
+}
+.f-20 {
+  font-size: var(--f20);
+}
+.f-15 {
+  font-size: 15px;
+}
+.dBlue {
+  color: var(--dBlue);
+}
+.dPink {
+  color: var(--dPink);
+}
+.pink-c {
+  color: var(--pink);
+}
+.ratingC {
+  color: var(--rating);
+}
+.hSize {
+  font-size: var(--hSize);
+}
+.inh2 {
+  font-weight: 700;
+  font-size: var(--f45);
+  color: var(--dBlue);
+  text-transform: uppercase;
+  text-align: left;
+}
+.inh2 span {
+  color: var(--dPink);
+}
+.inb {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--dBlue);
+  text-align: left;
+  line-height: 1.4;
+}
+.inb span {
+  color: var(--dPink);
+}
+.btndefault {
+  background: var(--dBlue);
+  color: #fff;
+  padding: 10px 30px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 25px;
+}
+@media (max-width: 576px) {
+  :root {
+    --bHsize: 35px;
+    --hSize: 30px;
+  }
+
+  .pt-100 {
+    padding-top: 50px;
+  }
+  .pb-100 {
+    padding-bottom: 50px;
+  }
+}

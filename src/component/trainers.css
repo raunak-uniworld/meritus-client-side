@@ -1,0 +1,39 @@
+.trainers h2:first-child {
+  font-size: var(--hSize);
+  color: #264ec8;
+}
+.trainers h2:first-child span {
+  color: #e20f6f;
+}
+.Trainers_container {
+  text-align: left;
+  background: #ffffff;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.12);
+  border-radius: 15px;
+  padding-bottom: 20px;
+  overflow: hidden;
+}
+.Trainers_container img {
+  border-radius: 15px;
+  height: 370px;
+  width: 100%;
+  object-fit: cover;
+}
+.Trainers_container_option {
+  display: flex;
+  justify-content: space-between;
+}
+.Trainers_container h2,
+.Trainers_container p,
+.Trainers_container_option {
+  padding: 0px 25px;
+}
+.Trainers_container h2 {
+  margin-top: 20px;
+}
+.Trainers_container p {
+  color: #323232;
+}
+.Trainers_container_option span:first-child {
+  padding-right: 20px;
+}

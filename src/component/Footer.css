@@ -1,0 +1,31 @@
+.footer {
+  padding: 100px 0px;
+  background-image: linear-gradient(
+      to right,
+      rgb(0 0 0 / 80%),
+      rgb(0 0 0 / 80%)
+    ),
+    url(./images/footer.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+.footer h3 {
+  font-family: "Poppins";
+  color: #7380ff;
+  font-size: 28px;
+  text-align: left;
+}
+.footer ul {
+  padding: 0px;
+  margin-top: 20px;
+}
+.footer ul li {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 15px;
+  list-style: none;
+  text-align: left;
+  color: #ffffff;
+}

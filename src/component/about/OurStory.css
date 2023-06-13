@@ -1,0 +1,13 @@
+.our_story {
+  background: rgb(254 188 8 / 10%);
+}
+.our_story img {
+  width: 20%;
+}
+.our_story img,
+.our_story .inh2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,6 @@
+.about_banner {
+  background: #f4f9fe;
+}
+.inb ~ p {
+  text-align: left;
+}

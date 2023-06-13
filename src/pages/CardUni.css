@@ -1,0 +1,27 @@
+.card_uni {
+  border: 2px solid var(--dBlue);
+  border-radius: 15px;
+  padding: 20px;
+}
+.card_uni img {
+  display: block;
+  width: 40%;
+  margin: 0 auto;
+}
+.card_uni h2 {
+  font-size: var(--f20);
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--dBlue);
+  margin-top: 20px;
+}
+.card_uni h2 span {
+  color: var(--dPink);
+}
+.card_uni p {
+  font-size: var(--pSize);
+  font-weight: 400;
+  color: #323232;
+  text-align: left;
+}

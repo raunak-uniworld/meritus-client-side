@@ -1,0 +1,18 @@
+.blog-card {
+  border: 2px solid #264ec8;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.blog-image {
+  border-radius: 15px;
+  overflow: hidden;
+}
+.blog-date {
+  text-align: right;
+}
+.blog-read {
+  color: var(--dPink);
+}
+.blog-content {
+  padding: 20px;
+}

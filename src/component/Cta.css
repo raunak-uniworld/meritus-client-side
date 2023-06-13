@@ -1,0 +1,36 @@
+.ctaContainer1 {
+  position: absolute;
+  background: rgb(195 197 248 / 20%);
+  height: 200px;
+  bottom: 0px;
+  z-index: -1;
+}
+.ctaContainer {
+  position: relative;
+  margin: 50px 0px;
+}
+.ctaBtnn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
+.ctaBtnn img {
+  width: 30%;
+  bottom: 0px;
+  margin-top: 80px;
+  margin-right: 100px;
+}
+.ctaContainer h2 {
+  margin-top: 20px;
+}
+.ctaBtnn a {
+  background: #264ec8;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 50px;
+  margin-top: 48px;
+}
+.ctaContainerTxt {
+  padding-top: 135px;
+}

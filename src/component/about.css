@@ -1,0 +1,77 @@
+.about_home .col-lg-8 {
+  background: rgba(195 197 248 / 20%);
+  opacity: 0.8;
+  border-radius: 30px;
+  padding: 0px 40px;
+  text-align: left;
+  padding-bottom: 50px;
+}
+.about_home_heading {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: var(--hSize);
+  line-height: 70px;
+  letter-spacing: 0.06em;
+  color: #264ec8;
+  margin-top: 45px;
+}
+.about_home_heading span,
+.about_home h2 {
+  color: #ff289c;
+}
+.about_home_para {
+  font-size: var(--pSize);
+  letter-spacing: 0.06em;
+  color: #264ec8;
+}
+.about_home_counter_cont {
+  display: flex;
+  justify-content: space-between;
+}
+.about_home_counter_item p {
+  color: #264ec8;
+}
+.about_home a {
+  display: inline-block;
+  font-size: 15px;
+  color: #fff;
+  background: #264ec8;
+  padding: 12px 30px;
+  border-radius: 50px;
+  margin-top: 25px;
+  text-decoration: none;
+}
+.about_home_counter_item h2 {
+  font-size: var(--hSize);
+}
+.about_home_counter_item h2 p {
+  font-size: var(--sHsize);
+}
+.about_home video {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+}
+.about_home_counter_item {
+  color: #ff289c;
+}
+@media (max-width: 576px) {
+  .about_home_heading {
+    margin-top: 0px;
+  }
+  .about_home .col-lg-8 {
+    padding: 30px 20px;
+    border-radius: 15px;
+    margin-top: 15px;
+  }
+  .about_home video {
+    border-radius: 15px;
+  }
+  .about_home a {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    font-size: var(--pSize);
+    text-decoration: none;
+  }
+}

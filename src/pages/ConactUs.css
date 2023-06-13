@@ -1,0 +1,93 @@
+form {
+  padding: 0px;
+}
+form input,
+form textarea {
+  border: 2px solid #c3c5f8 !important;
+  border-radius: 15px !important;
+  padding: 20px 0px !important;
+}
+form button {
+  background: #264ec8 !important;
+  border-radius: 25px !important;
+  padding: 12px 60px !important;
+}
+form label {
+  color: #000;
+}
+.contactP1 h2 {
+  font-size: var(--f45);
+  font-weight: 700;
+  color: var(--dBlue);
+  text-align: left !important;
+}
+.contactP1 h2 span {
+  color: var(--dPink);
+}
+.card-title {
+  margin-top: 20px;
+}
+.card_envalop,
+.card_phone {
+  border: 2px solid #c3c5f8;
+  padding: 0px 20px 40px;
+}
+.card_envalop div,
+.card_phone div {
+  display: block;
+  margin: 0 auto;
+  padding: 40px;
+  width: fit-content;
+  background: #f9f9fe;
+  border: 2px solid #c3c5f8;
+  border-radius: 50%;
+  text-align: center;
+  margin-top: -50px;
+}
+.card_phone div svg {
+  transform: rotate(105deg);
+  color: #ff5685;
+}
+svg {
+  color: #ff5685;
+}
+.card_phone .card-title,
+.card_envalop .card-title {
+  color: var(--dBlue);
+  font-size: var(--sHsize);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.card_phone .card-text,
+.card_envalop .card-text {
+  padding-top: 20px;
+}
+
+.map_card {
+  display: flex;
+  flex-direction: row;
+}
+.map-text,
+.map-title {
+  text-align: left;
+  margin-left: 20px;
+}
+.map_container h2 {
+  font-size: var(--f45);
+  font-weight: 700;
+  color: var(--dBlue);
+  margin-bottom: 40px;
+}
+.map_container h2 span {
+  color: var(--dPink);
+}
+
+.map-title {
+  font-size: var(--f20);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--dBlue);
+}
+.connect {
+  background: rgb(195 197 248 / 10%);
+}

@@ -1,0 +1,150 @@
+.Computational_home {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.Computational_container {
+  padding: 100px 0px;
+}
+.middle_con {
+  position: absolute;
+  width: 100%;
+  bottom: 40%;
+}
+.middle_con p {
+  font-size: 26px;
+  font-weight: 600;
+}
+.Computational_home .content {
+  width: 35%;
+  text-align: left;
+}
+.wrapper {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  border: none;
+}
+
+.sector {
+  position: absolute;
+  transform-origin: 100% 100%;
+  background: #ccc;
+  width: 500px;
+  height: 500px;
+  left: 50%;
+  top: 50%;
+  margin-top: -500px;
+  margin-left: -500px;
+  cursor: pointer;
+}
+
+.sector:hover {
+  background: #000;
+}
+#sec1 {
+  transform: rotate(72deg) skew(18deg);
+  background: #febc08;
+}
+#sec1 img {
+  transform: skew(-18deg) rotate(285deg);
+  margin: 87px 100px;
+}
+#sec2 {
+  transform: rotate(144deg) skew(18deg);
+  background: #08b9fc;
+}
+#sec2 img {
+  transform: skew(-18deg) rotate(210deg);
+  margin: 87px 100px;
+}
+#sec3 {
+  transform: rotate(216deg) skew(18deg);
+  background: #2d85f5;
+}
+#sec3 img {
+  transform: skew(-18deg) rotate(145deg);
+  margin: 87px 100px;
+}
+#sec4 {
+  transform: rotate(288deg) skew(18deg);
+  background: #6e5ac8;
+}
+#sec4 img {
+  transform: skew(-18deg) rotate(70deg);
+  margin: 87px 100px;
+}
+#sec5 {
+  transform: rotate(360deg) skew(18deg);
+  background: #e20f6f;
+}
+#sec5 img {
+  transform: skew(-18deg) rotate(358deg);
+  margin: 87px 100px;
+}
+
+.content {
+  margin-left: 20px;
+}
+.tab-content.active {
+  display: block;
+}
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 60%;
+  border-radius: 50%;
+  background: #ffffff;
+}
+.middle img {
+  padding: 20px;
+}
+#sec1 img,
+#sec2 img,
+#sec3 img,
+#sec4 img,
+#sec5 img {
+  width: 14%;
+  position: absolute;
+  bottom: 0px;
+  object-fit: contain;
+}
+.sector.active {
+  box-shadow: inset 30px 2px 100px 10px #00000021;
+}
+@media (max-width: 576px) {
+  .Computational_container {
+    padding: 50px 0px;
+  }
+  .middle_con p {
+    font-size: 18px;
+  }
+  .Computational_home {
+    flex-direction: column;
+  }
+  .wrapper {
+    width: 100%;
+    height: 400px;
+  }
+  .sector {
+    width: 100%;
+    height: 400px;
+    margin-top: -100%;
+    margin-left: -400px;
+  }
+  #sec1 img {
+    margin: 105px 105px;
+  }
+  .Computational_home .content {
+    width: 100%;
+    padding: 40px 20px;
+    text-align: left;
+  }
+}

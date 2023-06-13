@@ -1,0 +1,52 @@
+.term_first {
+  background: rgb(195 197 248 / 10%);
+  padding: 50px 0px;
+}
+
+.term_section h2 {
+  font-size: var(--f20);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #264ec8;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.term_section ol {
+  text-align: left;
+}
+.term_section div span {
+  display: block;
+  text-align: left;
+  font-weight: 700;
+  color: var(--blue);
+  width: 100%;
+}
+.term_section h2 span {
+  color: #e20f6f;
+}
+.term p {
+  font-size: var(--pSize);
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.term img {
+  width: 30%;
+}
+.term img,
+.term h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.term h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: var(--dBlue);
+  text-transform: uppercase;
+  width: 100%;
+}
+.term h1 span {
+  color: var(--dPink);
+}

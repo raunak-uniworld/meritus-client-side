@@ -1,0 +1,42 @@
+.privacy_first {
+  background: rgb(195 197 248 / 10%);
+  padding: 50px 0px;
+}
+
+.privacy_section h2 {
+  font-size: var(--f20);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #264ec8;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.privacy_section h2 span {
+  color: #e20f6f;
+}
+.privacy p {
+  font-size: var(--pSize);
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.privacy img {
+  width: 30%;
+}
+.privacy img,
+.privacy h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.privacy h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: var(--dBlue);
+  text-transform: uppercase;
+  width: 100%;
+}
+.privacy h1 span {
+  color: var(--dPink);
+}

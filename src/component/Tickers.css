@@ -1,0 +1,38 @@
+.ticker-container {
+  height: 50px;
+  overflow: hidden;
+}
+
+.ticker {
+  display: inline-block;
+  white-space: nowrap;
+  animation: marquee 10s linear infinite;
+  margin-right: 20px; /* Add spacing between ticker items */
+}
+
+.ticker:hover {
+  animation-play-state: paused;
+}
+
+.ticker:last-child {
+  margin-right: 0; /* Remove spacing for the last ticker item */
+}
+
+.ticker-text {
+  margin-right: 10px;
+  display: inline-flex; /* Align text and icon vertically */
+  align-items: center;
+}
+
+.ticker-icon {
+  margin-left: 5px; /* Add spacing between text and icon */
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

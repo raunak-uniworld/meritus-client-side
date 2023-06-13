@@ -1,0 +1,13 @@
+.core_value {
+  background: rgb(151 124 255 / 10%);
+  padding: 50px 0px;
+}
+.core_value div:first-child > h2 {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--dBlue);
+}
+span.sc-bwzfXH.kVtMtA {
+  display: none;
+}
